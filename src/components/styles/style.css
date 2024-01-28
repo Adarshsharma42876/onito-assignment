@@ -1,0 +1,45 @@
+body {
+  background-color: wheat;
+  padding: 20px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+table.dataTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+table.dataTable thead th {
+  background-color: #84b37e;
+  color: black;
+  border: 1px solid #ddd;
+  margin: 100px;
+}
+
+table.dataTable tbody tr {
+  background-color: #f3ecec;
+  color: black;
+  border: 1px solid #ddd;
+}
+
+table.dataTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table.dataTable tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+div.dataTables_paginate {
+  text-align: right;
+  padding: 10px;
+}
+
+div.dataTables_filter input {
+  width: 200px;
+  padding: 6px;
+  box-sizing: border-box;
+}
